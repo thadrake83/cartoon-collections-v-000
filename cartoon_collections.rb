@@ -13,6 +13,7 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.each do |calls|
     loud_calls << "#{calls.upcase}!"
   end
+  loud_calls
     # code an argument here
   # Your code here
 end
