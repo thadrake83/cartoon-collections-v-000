@@ -10,7 +10,7 @@ end
 def summon_captain_planet(planeteer_calls)
   loud_calls = []
   i = 0
-  planateer_calls.each do |calls|
+  planeteer_calls.each do |calls|
     loud_calls << "#{calls}!"
   end
     # code an argument here
