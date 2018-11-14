@@ -18,8 +18,8 @@ end
 
 def long_planeteer_calls(calls)
   calls.any? do |call|
-  if  call.length > 4
-    true
+    call.length > 4
+    
 
   end
 end
