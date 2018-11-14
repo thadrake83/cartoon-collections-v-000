@@ -8,10 +8,8 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(planeteer_calls)
-  loud_calls = []
-  i = 0
-  planeteer_calls.each do |calls|
-    loud_calls.upcase << "!"
+  planeteer_calls.collect do |calls|
+    calls.upcase << "!"
   end
 
     # code an argument here
